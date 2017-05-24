@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4726A3E1ED6094C00696FDC /* mathBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4726A391ED6094C00696FDC /* mathBoard.xib */; };
+		E4726A3F1ED6094C00696FDC /* mathBoardpolar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4726A3A1ED6094C00696FDC /* mathBoardpolar.xib */; };
+		E4726A401ED6094C00696FDC /* mathBoardsphere.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4726A3B1ED6094C00696FDC /* mathBoardsphere.xib */; };
+		E4726A411ED6094C00696FDC /* mathBoardt.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4726A3C1ED6094C00696FDC /* mathBoardt.xib */; };
+		E4726A421ED6094C00696FDC /* mathBoarduv.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4726A3D1ED6094C00696FDC /* mathBoarduv.xib */; };
+		E4864AB51CB80BC30070241C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4864AB41CB80BC30070241C /* UIKit.framework */; };
+		E4864AB71CB80BC80070241C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4864AB61CB80BC80070241C /* QuartzCore.framework */; };
+		E4864ABA1CB839CD0070241C /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = E4864AB91CB839CD0070241C /* NIDropDown.m */; };
+		E4A107641CA5D85B0080DB1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A107631CA5D85B0080DB1F /* Foundation.framework */; };
 		E4F4F5C81CA3330100F2F78D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F4F5C71CA3330100F2F78D /* main.m */; };
 		E4F4F5CB1CA3330100F2F78D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F4F5CA1CA3330100F2F78D /* AppDelegate.m */; };
 		E4F4F5CE1CA3330200F2F78D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F4F5CD1CA3330200F2F78D /* ViewController.m */; };
 		E4F4F5D11CA3330200F2F78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F4F5CF1CA3330200F2F78D /* Main.storyboard */; };
 		E4F4F5D31CA3330200F2F78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F4F5D21CA3330200F2F78D /* Assets.xcassets */; };
 		E4F4F5D61CA3330200F2F78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F4F5D41CA3330200F2F78D /* LaunchScreen.storyboard */; };
+		E4F4F5E01CA36D2600F2F78D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F4F5DF1CA36D2600F2F78D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E42E20BA1CA78A02001791CF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E4726A391ED6094C00696FDC /* mathBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mathBoard.xib; path = "3D Grapher/mathBoard.xib"; sourceTree = "<group>"; };
+		E4726A3A1ED6094C00696FDC /* mathBoardpolar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mathBoardpolar.xib; path = "3D Grapher/mathBoardpolar.xib"; sourceTree = "<group>"; };
+		E4726A3B1ED6094C00696FDC /* mathBoardsphere.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mathBoardsphere.xib; path = "3D Grapher/mathBoardsphere.xib"; sourceTree = "<group>"; };
+		E4726A3C1ED6094C00696FDC /* mathBoardt.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mathBoardt.xib; path = "3D Grapher/mathBoardt.xib"; sourceTree = "<group>"; };
+		E4726A3D1ED6094C00696FDC /* mathBoarduv.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mathBoarduv.xib; path = "3D Grapher/mathBoarduv.xib"; sourceTree = "<group>"; };
+		E4864AB41CB80BC30070241C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4864AB61CB80BC80070241C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4864AB81CB839CD0070241C /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIDropDown.h; path = "../../../Downloads/NIDropDown-master/NIDropDown.h"; sourceTree = "<group>"; };
+		E4864AB91CB839CD0070241C /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIDropDown.m; path = "../../../Downloads/NIDropDown-master/NIDropDown.m"; sourceTree = "<group>"; };
+		E4A107631CA5D85B0080DB1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E4F4F5C31CA3330100F2F78D /* 3D Grapher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Grapher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F4F5C71CA3330100F2F78D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F4F5C91CA3330100F2F78D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +59,7 @@
 		E4F4F5D21CA3330200F2F78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F4F5D51CA3330200F2F78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4F4F5D71CA3330200F2F78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F4F5DF1CA36D2600F2F78D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4864AB71CB80BC80070241C /* QuartzCore.framework in Frameworks */,
+				E4864AB51CB80BC30070241C /* UIKit.framework in Frameworks */,
+				E4A107641CA5D85B0080DB1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,14 @@
 		E4F4F5BA1CA3330100F2F78D = {
 			isa = PBXGroup;
 			children = (
+				E4864AB61CB80BC80070241C /* QuartzCore.framework */,
+				E4864AB41CB80BC30070241C /* UIKit.framework */,
+				E4726A391ED6094C00696FDC /* mathBoard.xib */,
+				E4726A3A1ED6094C00696FDC /* mathBoardpolar.xib */,
+				E4726A3B1ED6094C00696FDC /* mathBoardsphere.xib */,
+				E4726A3C1ED6094C00696FDC /* mathBoardt.xib */,
+				E4726A3D1ED6094C00696FDC /* mathBoarduv.xib */,
+				E4A107631CA5D85B0080DB1F /* Foundation.framework */,
 				E4F4F5C51CA3330100F2F78D /* 3D Grapher */,
 				E4F4F5C41CA3330100F2F78D /* Products */,
 			);
@@ -58,6 +103,8 @@
 		E4F4F5C51CA3330100F2F78D /* 3D Grapher */ = {
 			isa = PBXGroup;
 			children = (
+				E4864AB81CB839CD0070241C /* NIDropDown.h */,
+				E4864AB91CB839CD0070241C /* NIDropDown.m */,
 				E4F4F5C91CA3330100F2F78D /* AppDelegate.h */,
 				E4F4F5CA1CA3330100F2F78D /* AppDelegate.m */,
 				E4F4F5CC1CA3330200F2F78D /* ViewController.h */,
@@ -66,6 +113,7 @@
 				E4F4F5D21CA3330200F2F78D /* Assets.xcassets */,
 				E4F4F5D41CA3330200F2F78D /* LaunchScreen.storyboard */,
 				E4F4F5D71CA3330200F2F78D /* Info.plist */,
+				E4F4F5DF1CA36D2600F2F78D /* Images.xcassets */,
 				E4F4F5C61CA3330100F2F78D /* Supporting Files */,
 			);
 			path = "3D Grapher";
@@ -89,6 +137,7 @@
 				E4F4F5BF1CA3330100F2F78D /* Sources */,
 				E4F4F5C01CA3330100F2F78D /* Frameworks */,
 				E4F4F5C11CA3330100F2F78D /* Resources */,
+				E42E20BA1CA78A02001791CF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -110,6 +159,7 @@
 				TargetAttributes = {
 					E4F4F5C21CA3330100F2F78D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7JEQ65LN2K;
 					};
 				};
 			};
@@ -136,9 +186,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4726A3E1ED6094C00696FDC /* mathBoard.xib in Resources */,
 				E4F4F5D61CA3330200F2F78D /* LaunchScreen.storyboard in Resources */,
+				E4F4F5E01CA36D2600F2F78D /* Images.xcassets in Resources */,
+				E4726A3F1ED6094C00696FDC /* mathBoardpolar.xib in Resources */,
 				E4F4F5D31CA3330200F2F78D /* Assets.xcassets in Resources */,
+				E4726A401ED6094C00696FDC /* mathBoardsphere.xib in Resources */,
+				E4726A411ED6094C00696FDC /* mathBoardt.xib in Resources */,
 				E4F4F5D11CA3330200F2F78D /* Main.storyboard in Resources */,
+				E4726A421ED6094C00696FDC /* mathBoarduv.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +208,7 @@
 				E4F4F5CE1CA3330200F2F78D /* ViewController.m in Sources */,
 				E4F4F5CB1CA3330100F2F78D /* AppDelegate.m in Sources */,
 				E4F4F5C81CA3330100F2F78D /* main.m in Sources */,
+				E4864ABA1CB839CD0070241C /* NIDropDown.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +320,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "3D Grapher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Vikram-Mullick.-D-Grapher";
+				PRODUCT_BUNDLE_IDENTIFIER = Grapher.Grapher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +335,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "3D Grapher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Vikram-Mullick.-D-Grapher";
+				PRODUCT_BUNDLE_IDENTIFIER = Grapher.Grapher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +365,7 @@
 				E4F4F5DC1CA3330200F2F78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

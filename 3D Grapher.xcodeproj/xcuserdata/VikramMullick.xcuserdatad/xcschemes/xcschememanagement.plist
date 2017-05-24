@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MathKeyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E42E20AD1CA78A02001791CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E4F4F5C21CA3330100F2F78D</key>
 		<dict>
 			<key>primary</key>
