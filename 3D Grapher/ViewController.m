@@ -833,7 +833,7 @@ double pi = M_PI+.05;
         if([self.functionType isEqualToString:@"z(r,θ) = "])
         {
             double hp=[self hp: t];
-            double g2=[self g2:t];
+            double g2=[self g2: t];
             
             currentx=[self xx]*hp*cos(g2)+[self yx]*hp*sin(g2);
             currenty=[self xy]*hp*cos(g2)+[self yy]*hp*sin(g2)+[self zy]*[self function:hp:g2];
